@@ -1,0 +1,10 @@
+{
+  "completed_epochs": 12880,
+  "best_epoch": 2322,
+  "best_validation_loss": 0.043902792036533356,
+  "fitting_elapsed_s": 7200.125994012982,
+  "fitting_time_budget_minutes": 120.0,
+  "augmentation_refreshes": 643,
+  "running": false,
+  "stop_reason": "time_budget"
+}

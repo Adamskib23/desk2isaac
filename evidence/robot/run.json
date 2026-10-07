@@ -1,0 +1,1021 @@
+{
+  "identity": {
+    "manifest_sha256": "f0d489554fd77e11227cc547a44e121826a50a630ba627ceb46b3fc39465a7c4",
+    "indices": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ],
+    "headless": false,
+    "video": true,
+    "replay_script_sha256": "ab9f85fda6fde65c965f81f87afd803841394195cbd91a939ad4c9e62229b586",
+    "physical_controller_sha256": "731f427ce81ed24d98e8b5d9c3bb580e574bfa578a4e74f2df50934aa1219b5f",
+    "scene_context": true,
+    "scene_context_code_sha256": "092afbfda95216074aad71d7b0508f82b68d398248a6cc60ce48038caecc197a",
+    "yaw_code_sha256": "dfb348ca15eb2a176fe370c7d298dbd221ad729044d881272edaf1c94a3f1b39",
+    "objects_config_sha256": "1308d3b7e0356badcfcdc34bc943b8495dce5603b39505ca1bd98923fd12dc90"
+  },
+  "mode": "dynamic",
+  "clips": [
+    {
+      "index": 1,
+      "episode": "data/real/rl_pilot/tin_001",
+      "directory": "outputs/isaac_reviews/full_030_yaw/001_yellow_mustard_tin",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.07257211208343506,
+          "bilateral_airborne_hold_s": 9.316669999999998,
+          "finger_box_contact_peak_n": [
+            35.55198287963867,
+            32.95699691772461
+          ],
+          "grasp_slip_max_m": 0.0001692125681471066,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.0010525560712862673,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true,
+          "final_goal_yaw_error_deg": 1.0191305165087043,
+          "final_upright_tilt_deg": 0.0021656656443911865,
+          "yaw_tolerance_deg": 10.0,
+          "upright_tolerance_deg": 15.0,
+          "yaw_goal_passed": true,
+          "pick_place_with_yaw_passed": true,
+          "carry_yaw_error_p95_deg": 0.73083098377775
+        }
+      ],
+      "pick_place_with_yaw_passed": true
+    },
+    {
+      "index": 2,
+      "episode": "data/real/rl_pilot/tin_002_retry",
+      "directory": "outputs/isaac_reviews/full_030_yaw/002_yellow_mustard_tin",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.054096341133117676,
+          "bilateral_airborne_hold_s": 7.425,
+          "finger_box_contact_peak_n": [
+            33.88425827026367,
+            32.318382263183594
+          ],
+          "grasp_slip_max_m": 2.4095627215197737e-06,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.0024063663008851897,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true,
+          "final_goal_yaw_error_deg": 0.74547615153709,
+          "final_upright_tilt_deg": 0.0025382751673490417,
+          "yaw_tolerance_deg": 10.0,
+          "upright_tolerance_deg": 15.0,
+          "yaw_goal_passed": true,
+          "pick_place_with_yaw_passed": true,
+          "carry_yaw_error_p95_deg": 0.9121387365449751
+        }
+      ],
+      "pick_place_with_yaw_passed": true
+    },
+    {
+      "index": 3,
+      "episode": "data/real/rl_pilot/tin_003",
+      "directory": "outputs/isaac_reviews/full_030_yaw/003_yellow_mustard_tin",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.05362558364868164,
+          "bilateral_airborne_hold_s": 7.40834,
+          "finger_box_contact_peak_n": [
+            35.07927322387695,
+            33.024478912353516
+          ],
+          "grasp_slip_max_m": 2.6291825693191906e-05,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.0005069220619665151,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true,
+          "final_goal_yaw_error_deg": 0.692256519828722,
+          "final_upright_tilt_deg": 0.002865718301812838,
+          "yaw_tolerance_deg": 10.0,
+          "upright_tolerance_deg": 15.0,
+          "yaw_goal_passed": true,
+          "pick_place_with_yaw_passed": true,
+          "carry_yaw_error_p95_deg": 0.7988204859817346
+        }
+      ],
+      "pick_place_with_yaw_passed": true
+    },
+    {
+      "index": 4,
+      "episode": "data/real/rl_pilot/batch_001/clip_004_yellow_mustard_tin",
+      "directory": "outputs/isaac_reviews/full_030_yaw/004_yellow_mustard_tin",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.053968071937561035,
+          "bilateral_airborne_hold_s": 7.69166,
+          "finger_box_contact_peak_n": [
+            33.0051383972168,
+            34.512245178222656
+          ],
+          "grasp_slip_max_m": 3.871746484507354e-05,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.00045624576633631535,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true,
+          "final_goal_yaw_error_deg": 0.21316220821089923,
+          "final_upright_tilt_deg": 0.0029914508301144144,
+          "yaw_tolerance_deg": 10.0,
+          "upright_tolerance_deg": 15.0,
+          "yaw_goal_passed": true,
+          "pick_place_with_yaw_passed": true,
+          "carry_yaw_error_p95_deg": 0.9987116740787098
+        }
+      ],
+      "pick_place_with_yaw_passed": true
+    },
+    {
+      "index": 5,
+      "episode": "data/real/rl_pilot/batch_001/clip_005_blue_sphere",
+      "directory": "outputs/isaac_reviews/full_030_yaw/005_blue_sphere",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.057544589042663574,
+          "bilateral_airborne_hold_s": 7.9,
+          "finger_box_contact_peak_n": [
+            33.7105827331543,
+            33.508262634277344
+          ],
+          "grasp_slip_max_m": 0.00011045341790552854,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.016044604045346075,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "episode": "data/real/rl_pilot/batch_001/clip_007_yellow_mustard_tin",
+      "directory": "outputs/isaac_reviews/full_030_yaw/006_yellow_mustard_tin",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.06311070919036865,
+          "bilateral_airborne_hold_s": 9.425,
+          "finger_box_contact_peak_n": [
+            32.93015670776367,
+            35.214202880859375
+          ],
+          "grasp_slip_max_m": 4.010935401156403e-05,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.00035749830325668353,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true,
+          "final_goal_yaw_error_deg": 0.14263721790964673,
+          "final_upright_tilt_deg": 0.002601096203473394,
+          "yaw_tolerance_deg": 10.0,
+          "upright_tolerance_deg": 15.0,
+          "yaw_goal_passed": true,
+          "pick_place_with_yaw_passed": true,
+          "carry_yaw_error_p95_deg": 0.7725578317718924
+        }
+      ],
+      "pick_place_with_yaw_passed": true
+    },
+    {
+      "index": 7,
+      "episode": "data/real/rl_pilot/batch_001/clip_010_yellow_mustard_tin",
+      "directory": "outputs/isaac_reviews/full_030_yaw/007_yellow_mustard_tin_attempt_2",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.05391514301300049,
+          "bilateral_airborne_hold_s": 8.15833,
+          "finger_box_contact_peak_n": [
+            33.122554779052734,
+            34.81999969482422
+          ],
+          "grasp_slip_max_m": 2.87235821034152e-05,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.001400721798574016,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true,
+          "final_goal_yaw_error_deg": 0.3332428070705592,
+          "final_upright_tilt_deg": 0.0027075978473971793,
+          "yaw_tolerance_deg": 10.0,
+          "upright_tolerance_deg": 15.0,
+          "yaw_goal_passed": true,
+          "pick_place_with_yaw_passed": true,
+          "carry_yaw_error_p95_deg": 0.9027114933066991
+        }
+      ],
+      "pick_place_with_yaw_passed": true
+    },
+    {
+      "index": 8,
+      "episode": "data/real/rl_pilot/batch_002/clip_002_blue_sphere",
+      "directory": "outputs/isaac_reviews/full_030_yaw/008_blue_sphere",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.05749309062957764,
+          "bilateral_airborne_hold_s": 6.04166,
+          "finger_box_contact_peak_n": [
+            33.90205383300781,
+            33.63034439086914
+          ],
+          "grasp_slip_max_m": 9.051076199872413e-05,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.016122673729413724,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "episode": "data/real/rl_pilot/batch_002/clip_003_blue_sphere",
+      "directory": "outputs/isaac_reviews/full_030_yaw/009_blue_sphere",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.05682647228240967,
+          "bilateral_airborne_hold_s": 7.333330000000001,
+          "finger_box_contact_peak_n": [
+            33.969642639160156,
+            33.6594123840332
+          ],
+          "grasp_slip_max_m": 0.00247413510849525,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.02413222783415619,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "episode": "data/real/rl_pilot/batch_002/clip_005_blue_sphere",
+      "directory": "outputs/isaac_reviews/full_030_yaw/010_blue_sphere",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.05686783790588379,
+          "bilateral_airborne_hold_s": 6.316669999999999,
+          "finger_box_contact_peak_n": [
+            34.00605392456055,
+            33.66022872924805
+          ],
+          "grasp_slip_max_m": 0.001869290486487671,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.017840825792415246,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "episode": "data/real/rl_pilot/batch_002/clip_006_blue_sphere",
+      "directory": "outputs/isaac_reviews/full_030_yaw/011_blue_sphere",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.057586073875427246,
+          "bilateral_airborne_hold_s": 8.525,
+          "finger_box_contact_peak_n": [
+            33.73384475708008,
+            33.84669876098633
+          ],
+          "grasp_slip_max_m": 0.0001745983351090886,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.014763130408032687,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "episode": "data/real/rl_pilot/batch_002/clip_008_yellow_mustard_tin",
+      "directory": "outputs/isaac_reviews/full_030_yaw/012_yellow_mustard_tin",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.053438425064086914,
+          "bilateral_airborne_hold_s": 7.033330000000001,
+          "finger_box_contact_peak_n": [
+            33.02655792236328,
+            34.90425491333008
+          ],
+          "grasp_slip_max_m": 1.0970448297134571e-05,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.0006434432437527408,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true,
+          "final_goal_yaw_error_deg": 0.2236312155605468,
+          "final_upright_tilt_deg": 0.0030022715676400456,
+          "yaw_tolerance_deg": 10.0,
+          "upright_tolerance_deg": 15.0,
+          "yaw_goal_passed": true,
+          "pick_place_with_yaw_passed": true,
+          "carry_yaw_error_p95_deg": 0.575424797260902
+        }
+      ],
+      "pick_place_with_yaw_passed": true
+    },
+    {
+      "index": 13,
+      "episode": "data/real/rl_pilot/batch_002/clip_009_yellow_mustard_tin",
+      "directory": "outputs/isaac_reviews/full_030_yaw/013_yellow_mustard_tin",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.06515824794769287,
+          "bilateral_airborne_hold_s": 7.1000000000000005,
+          "finger_box_contact_peak_n": [
+            32.29544448852539,
+            34.861454010009766
+          ],
+          "grasp_slip_max_m": 3.0891779120840315e-06,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 4.8516176860463084e-05,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true,
+          "final_goal_yaw_error_deg": 0.44584965952615047,
+          "final_upright_tilt_deg": 0.002980819462861923,
+          "yaw_tolerance_deg": 10.0,
+          "upright_tolerance_deg": 15.0,
+          "yaw_goal_passed": true,
+          "pick_place_with_yaw_passed": true,
+          "carry_yaw_error_p95_deg": 1.0425527404403951
+        }
+      ],
+      "pick_place_with_yaw_passed": true
+    },
+    {
+      "index": 14,
+      "episode": "data/real/rl_pilot/batch_001/clip_003_black_box",
+      "directory": "outputs/isaac_reviews/full_030_yaw/014_black_box",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.05713343620300293,
+          "bilateral_airborne_hold_s": 9.808330000000002,
+          "finger_box_contact_peak_n": [
+            38.87564468383789,
+            37.058223724365234
+          ],
+          "grasp_slip_max_m": 2.65692571420298e-06,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.0011686409557779799,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true,
+          "final_goal_yaw_error_deg": 0.09838225588740038,
+          "final_upright_tilt_deg": 0.0004802581109157939,
+          "yaw_tolerance_deg": 10.0,
+          "upright_tolerance_deg": 15.0,
+          "yaw_goal_passed": true,
+          "pick_place_with_yaw_passed": true,
+          "carry_yaw_error_p95_deg": 0.590031306410698
+        }
+      ],
+      "pick_place_with_yaw_passed": true
+    },
+    {
+      "index": 15,
+      "episode": "data/real/rl_pilot/batch_001/clip_006_black_box",
+      "directory": "outputs/isaac_reviews/full_030_yaw/015_black_box",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.0576014518737793,
+          "bilateral_airborne_hold_s": 9.35834,
+          "finger_box_contact_peak_n": [
+            38.91572570800781,
+            36.98296356201172
+          ],
+          "grasp_slip_max_m": 6.570302745735236e-06,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.0009149008820462906,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true,
+          "final_goal_yaw_error_deg": 0.07126833487176996,
+          "final_upright_tilt_deg": 0.000622043096679066,
+          "yaw_tolerance_deg": 10.0,
+          "upright_tolerance_deg": 15.0,
+          "yaw_goal_passed": true,
+          "pick_place_with_yaw_passed": true,
+          "carry_yaw_error_p95_deg": 0.633340292271657
+        }
+      ],
+      "pick_place_with_yaw_passed": true
+    },
+    {
+      "index": 16,
+      "episode": "data/real/rl_pilot/batch_001/clip_009_black_box",
+      "directory": "outputs/isaac_reviews/full_030_yaw/016_black_box",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.05744779109954834,
+          "bilateral_airborne_hold_s": 8.10833,
+          "finger_box_contact_peak_n": [
+            39.445716857910156,
+            37.083526611328125
+          ],
+          "grasp_slip_max_m": 4.013975878273855e-06,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.0012247366142018473,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true,
+          "final_goal_yaw_error_deg": 0.048215600556507664,
+          "final_upright_tilt_deg": 0.000604349933883103,
+          "yaw_tolerance_deg": 10.0,
+          "upright_tolerance_deg": 15.0,
+          "yaw_goal_passed": true,
+          "pick_place_with_yaw_passed": true,
+          "carry_yaw_error_p95_deg": 0.6945423207862077
+        }
+      ],
+      "pick_place_with_yaw_passed": true
+    },
+    {
+      "index": 17,
+      "episode": "data/real/rl_pilot/batch_001/clip_011_black_box",
+      "directory": "outputs/isaac_reviews/full_030_yaw/017_black_box",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.11985194683074951,
+          "bilateral_airborne_hold_s": 9.35,
+          "finger_box_contact_peak_n": [
+            38.70256423950195,
+            36.99695587158203
+          ],
+          "grasp_slip_max_m": 1.3895709597674804e-05,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.0010160694218681243,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true,
+          "final_goal_yaw_error_deg": 0.033796307406635605,
+          "final_upright_tilt_deg": 0.0003506962940664087,
+          "yaw_tolerance_deg": 10.0,
+          "upright_tolerance_deg": 15.0,
+          "yaw_goal_passed": true,
+          "pick_place_with_yaw_passed": true,
+          "carry_yaw_error_p95_deg": 1.0105880759770494
+        }
+      ],
+      "pick_place_with_yaw_passed": true
+    },
+    {
+      "index": 18,
+      "episode": "data/real/rl_pilot/batch_002/clip_001_blue_sphere",
+      "directory": "outputs/isaac_reviews/full_030_yaw/018_blue_sphere",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": false,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.057555437088012695,
+          "bilateral_airborne_hold_s": 6.166670000000001,
+          "finger_box_contact_peak_n": [
+            34.00758361816406,
+            33.7331428527832
+          ],
+          "grasp_slip_max_m": 9.850235203524876e-05,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.02504178362987356,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": false
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "episode": "data/real/rl_pilot/batch_002/clip_004_blue_sphere",
+      "directory": "outputs/isaac_reviews/full_030_yaw/019_blue_sphere",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.08462727069854736,
+          "bilateral_airborne_hold_s": 8.38333,
+          "finger_box_contact_peak_n": [
+            33.799842834472656,
+            33.67042922973633
+          ],
+          "grasp_slip_max_m": 0.0005769393573925762,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.014858394745823355,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "episode": "data/real/rl_pilot/batch_002/clip_007_yellow_mustard_tin",
+      "directory": "outputs/isaac_reviews/full_030_yaw/020_yellow_mustard_tin",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.06149494647979736,
+          "bilateral_airborne_hold_s": 7.08333,
+          "finger_box_contact_peak_n": [
+            33.030181884765625,
+            34.927711486816406
+          ],
+          "grasp_slip_max_m": 3.6847233306280926e-05,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.0009427579049796931,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true,
+          "final_goal_yaw_error_deg": 0.12708153293659416,
+          "final_upright_tilt_deg": 0.0027852984419407334,
+          "yaw_tolerance_deg": 10.0,
+          "upright_tolerance_deg": 15.0,
+          "yaw_goal_passed": true,
+          "pick_place_with_yaw_passed": true,
+          "carry_yaw_error_p95_deg": 0.9044077889988115
+        }
+      ],
+      "pick_place_with_yaw_passed": true
+    },
+    {
+      "index": 21,
+      "episode": "data/real/rl_pilot/batch_002/clip_010_blue_sphere",
+      "directory": "outputs/isaac_reviews/full_030_yaw/021_blue_sphere",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.09550905227661133,
+          "bilateral_airborne_hold_s": 7.208330000000001,
+          "finger_box_contact_peak_n": [
+            33.8127555847168,
+            33.65150833129883
+          ],
+          "grasp_slip_max_m": 7.190271270783083e-05,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.010315590599294584,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "episode": "data/real/rl_pilot/box_001_retry",
+      "directory": "outputs/isaac_reviews/full_030_yaw/022_black_box",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.08194053173065186,
+          "bilateral_airborne_hold_s": 11.28334,
+          "finger_box_contact_peak_n": [
+            38.99125671386719,
+            36.99100112915039
+          ],
+          "grasp_slip_max_m": 3.9848727068644975e-06,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.0012371853072745975,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true,
+          "final_goal_yaw_error_deg": 0.0037686313634505086,
+          "final_upright_tilt_deg": 0.0006490684646477054,
+          "yaw_tolerance_deg": 10.0,
+          "upright_tolerance_deg": 15.0,
+          "yaw_goal_passed": true,
+          "pick_place_with_yaw_passed": true,
+          "carry_yaw_error_p95_deg": 0.6256977601292129
+        }
+      ],
+      "pick_place_with_yaw_passed": true
+    },
+    {
+      "index": 23,
+      "episode": "data/real/rl_pilot/batch_003/clip_001_black_box",
+      "directory": "outputs/isaac_reviews/full_030_yaw/023_black_box",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.06121480464935303,
+          "bilateral_airborne_hold_s": 7.508330000000001,
+          "finger_box_contact_peak_n": [
+            39.57243347167969,
+            37.009681701660156
+          ],
+          "grasp_slip_max_m": 8.627522325154334e-06,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.001125099862532757,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true,
+          "final_goal_yaw_error_deg": 0.005447396073226445,
+          "final_upright_tilt_deg": 0.00030983515025358345,
+          "yaw_tolerance_deg": 10.0,
+          "upright_tolerance_deg": 15.0,
+          "yaw_goal_passed": true,
+          "pick_place_with_yaw_passed": true,
+          "carry_yaw_error_p95_deg": 0.8459947257862023
+        }
+      ],
+      "pick_place_with_yaw_passed": true
+    },
+    {
+      "index": 24,
+      "episode": "data/real/rl_pilot/batch_003/clip_002_black_box",
+      "directory": "outputs/isaac_reviews/full_030_yaw/024_black_box",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.0645982027053833,
+          "bilateral_airborne_hold_s": 9.483329999999999,
+          "finger_box_contact_peak_n": [
+            38.7457389831543,
+            37.07002639770508
+          ],
+          "grasp_slip_max_m": 2.4891332296989244e-05,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.0012079175129770703,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true,
+          "final_goal_yaw_error_deg": 0.004189794610137502,
+          "final_upright_tilt_deg": 0.00034189877082404504,
+          "yaw_tolerance_deg": 10.0,
+          "upright_tolerance_deg": 15.0,
+          "yaw_goal_passed": true,
+          "pick_place_with_yaw_passed": true,
+          "carry_yaw_error_p95_deg": 0.9929714758949665
+        }
+      ],
+      "pick_place_with_yaw_passed": true
+    },
+    {
+      "index": 25,
+      "episode": "data/real/rl_pilot/batch_003/clip_003_black_box",
+      "directory": "outputs/isaac_reviews/full_030_yaw/025_black_box",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.07341516017913818,
+          "bilateral_airborne_hold_s": 8.46667,
+          "finger_box_contact_peak_n": [
+            39.02717590332031,
+            37.023773193359375
+          ],
+          "grasp_slip_max_m": 1.5263293104141225e-05,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.0008506380284729284,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true,
+          "final_goal_yaw_error_deg": 0.0021340233992165818,
+          "final_upright_tilt_deg": 0.00017910942077931327,
+          "yaw_tolerance_deg": 10.0,
+          "upright_tolerance_deg": 15.0,
+          "yaw_goal_passed": true,
+          "pick_place_with_yaw_passed": true,
+          "carry_yaw_error_p95_deg": 0.85991541206641
+        }
+      ],
+      "pick_place_with_yaw_passed": true
+    },
+    {
+      "index": 26,
+      "episode": "data/real/rl_pilot/batch_003/clip_004_black_box",
+      "directory": "outputs/isaac_reviews/full_030_yaw/026_black_box",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.06439673900604248,
+          "bilateral_airborne_hold_s": 9.16666,
+          "finger_box_contact_peak_n": [
+            38.97488021850586,
+            37.16423797607422
+          ],
+          "grasp_slip_max_m": 1.4560479802816396e-05,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.0011292104476333866,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true,
+          "final_goal_yaw_error_deg": 0.14189070089021863,
+          "final_upright_tilt_deg": 0.00038944714315266665,
+          "yaw_tolerance_deg": 10.0,
+          "upright_tolerance_deg": 15.0,
+          "yaw_goal_passed": true,
+          "pick_place_with_yaw_passed": true,
+          "carry_yaw_error_p95_deg": 0.9340585054002678
+        }
+      ],
+      "pick_place_with_yaw_passed": true
+    },
+    {
+      "index": 27,
+      "episode": "data/real/rl_pilot/batch_003/clip_005_black_box",
+      "directory": "outputs/isaac_reviews/full_030_yaw/027_black_box",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.08970987796783447,
+          "bilateral_airborne_hold_s": 7.88333,
+          "finger_box_contact_peak_n": [
+            38.46796417236328,
+            37.064727783203125
+          ],
+          "grasp_slip_max_m": 9.108435270723954e-06,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.0009679207097122673,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true,
+          "final_goal_yaw_error_deg": 0.13064191254768343,
+          "final_upright_tilt_deg": 0.00017086781681065658,
+          "yaw_tolerance_deg": 10.0,
+          "upright_tolerance_deg": 15.0,
+          "yaw_goal_passed": true,
+          "pick_place_with_yaw_passed": true,
+          "carry_yaw_error_p95_deg": 0.7775361383302437
+        }
+      ],
+      "pick_place_with_yaw_passed": true
+    },
+    {
+      "index": 28,
+      "episode": "data/real/rl_pilot/batch_003/clip_006_blue_sphere",
+      "directory": "outputs/isaac_reviews/full_030_yaw/028_blue_sphere",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.05794632434844971,
+          "bilateral_airborne_hold_s": 7.216660000000001,
+          "finger_box_contact_peak_n": [
+            33.71687698364258,
+            33.873741149902344
+          ],
+          "grasp_slip_max_m": 0.0004338901088293781,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.0217716019533018,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "episode": "data/real/rl_pilot/batch_003/clip_007_blue_sphere",
+      "directory": "outputs/isaac_reviews/full_030_yaw/029_blue_sphere",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.06805145740509033,
+          "bilateral_airborne_hold_s": 6.71667,
+          "finger_box_contact_peak_n": [
+            33.948638916015625,
+            33.61337661743164
+          ],
+          "grasp_slip_max_m": 0.0025595833857418367,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.0235648480958026,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "episode": "data/real/rl_pilot/batch_003/clip_008_yellow_mustard_tin",
+      "directory": "outputs/isaac_reviews/full_030_yaw/030_yellow_mustard_tin",
+      "exit_code": 0,
+      "completed": true,
+      "pick_place_passed": true,
+      "tracking_passed": true,
+      "physical_results": [
+        {
+          "max_bottom_clearance_m": 0.056584715843200684,
+          "bilateral_airborne_hold_s": 8.1,
+          "finger_box_contact_peak_n": [
+            32.98181915283203,
+            35.0582275390625
+          ],
+          "grasp_slip_max_m": 2.673799841902339e-05,
+          "lift_passed": true,
+          "final_goal_xy_error_m": 0.0013855366521323396,
+          "on_table": true,
+          "settled": true,
+          "released": true,
+          "physical_grasp_validated": true,
+          "pick_place_passed": true,
+          "final_goal_yaw_error_deg": 0.6928597686525273,
+          "final_upright_tilt_deg": 0.0026497097228604253,
+          "yaw_tolerance_deg": 10.0,
+          "upright_tolerance_deg": 15.0,
+          "yaw_goal_passed": true,
+          "pick_place_with_yaw_passed": true,
+          "carry_yaw_error_p95_deg": 0.7373776405036074
+        }
+      ],
+      "pick_place_with_yaw_passed": true
+    }
+  ],
+  "completed": true,
+  "notes": "Automatic review does not approve teacher labels or replace held-out evaluation.",
+  "pick_place_passed_count": 29
+}

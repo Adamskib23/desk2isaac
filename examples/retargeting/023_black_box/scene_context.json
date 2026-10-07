@@ -1,0 +1,503 @@
+{
+  "schema_version": "hmnd_scene_context_v1",
+  "source_episode": "data/real/rl_pilot/batch_003/clip_001_black_box",
+  "source_task_sha256": "1e48de39280c70c3b4f15f1b72de9a44e16161e2ad9ff7bebadfd73fccd89202",
+  "selected_object": "black_box",
+  "markers": [
+    {
+      "id": 0,
+      "dictionary": "DICT_4X4_1000",
+      "black_square_size_m": 0.10640000000000001,
+      "initial_sim_xyz_m": [
+        0.653330534696579,
+        0.26180068403482437,
+        1.05
+      ],
+      "quat_wxyz": [
+        0.7056480004266736,
+        0.0,
+        0.0,
+        -0.7085625586310903
+      ],
+      "sim_corners_m": [
+        [
+          0.7067493624873684,
+          0.31478095241332527
+        ],
+        [
+          0.7063108030750799,
+          0.2083818562440349
+        ],
+        [
+          0.5999117069057895,
+          0.20882041565632348
+        ],
+        [
+          0.6003502663180781,
+          0.3152195118256138
+        ]
+      ],
+      "cells": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "collision_enabled": false
+    },
+    {
+      "id": 3,
+      "dictionary": "DICT_4X4_1000",
+      "black_square_size_m": 0.10640000000000001,
+      "initial_sim_xyz_m": [
+        0.6794710010290146,
+        -0.25347625464200974,
+        1.05
+      ],
+      "quat_wxyz": [
+        0.9997489982921912,
+        0.0,
+        0.0,
+        0.022404026730929887
+      ],
+      "sim_corners_m": [
+        [
+          0.6239412173798382,
+          -0.20271285121123422
+        ],
+        [
+          0.7302344044597902,
+          -0.1979464709928334
+        ],
+        [
+          0.735000784678191,
+          -0.30423965807278525
+        ],
+        [
+          0.628707597598239,
+          -0.30900603829118606
+        ]
+      ],
+      "cells": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "collision_enabled": false
+    },
+    {
+      "id": 2,
+      "dictionary": "DICT_4X4_1000",
+      "black_square_size_m": 0.10640000000000001,
+      "initial_sim_xyz_m": [
+        0.42554835230112076,
+        0.25295959040522575,
+        1.05
+      ],
+      "quat_wxyz": [
+        0.7177076174417911,
+        0.0,
+        0.0,
+        -0.6963445812713901
+      ],
+      "sim_corners_m": [
+        [
+          0.4771169834737391,
+          0.3077424004735534
+        ],
+        [
+          0.4803311623694484,
+          0.20139095923260744
+        ],
+        [
+          0.3739797211285024,
+          0.19817678033689812
+        ],
+        [
+          0.3707655422327931,
+          0.3045282215778441
+        ]
+      ],
+      "cells": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "collision_enabled": false
+    },
+    {
+      "id": 1,
+      "dictionary": "DICT_4X4_1000",
+      "black_square_size_m": 0.10640000000000001,
+      "initial_sim_xyz_m": [
+        0.4384531229734421,
+        -0.26212654635310173,
+        1.05
+      ],
+      "quat_wxyz": [
+        0.6918374793093119,
+        0.0,
+        0.0,
+        0.7220532544230636
+      ],
+      "sim_corners_m": [
+        [
+          0.38757449420105916,
+          -0.3175507751185257
+        ],
+        [
+          0.3830288942080181,
+          -0.2112479175807188
+        ],
+        [
+          0.489331751745825,
+          -0.20670231758767774
+        ],
+        [
+          0.49387735173886604,
+          -0.31300517512548465
+        ]
+      ],
+      "cells": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "collision_enabled": false
+    }
+  ],
+  "background_objects": [
+    {
+      "name": "blue_sphere",
+      "shape": "sphere",
+      "size_m": [
+        0.0365,
+        0.0365,
+        0.0365
+      ],
+      "hsv_ranges": [
+        [
+          [
+            80,
+            65,
+            95
+          ],
+          [
+            115,
+            255,
+            255
+          ]
+        ]
+      ],
+      "color_bgr": [
+        230,
+        180,
+        50
+      ],
+      "min_area_px": 300,
+      "base_diameter_m": null,
+      "initial_sim_xyz_m": [
+        0.45414096117019653,
+        -0.07333733886480331,
+        1.0682500000000001
+      ],
+      "initial_desk_xyz_m": [
+        0.33513801550437206,
+        -0.19918957697361797,
+        0.01825
+      ],
+      "initial_pixel_xy": [
+        831.3899874374836,
+        276.7299831105935
+      ],
+      "position_source": "boundary_hsv_aligned_depth_visual_reference",
+      "collision_enabled": false,
+      "training_ready": false,
+      "orientation_assumption": "upright; yaw unmeasured",
+      "yaw_source": "unmeasured_position_only"
+    },
+    {
+      "name": "yellow_mustard_tin",
+      "shape": "cuboid",
+      "size_m": [
+        0.051,
+        0.035,
+        0.085
+      ],
+      "hsv_ranges": [
+        [
+          [
+            18,
+            100,
+            70
+          ],
+          [
+            38,
+            255,
+            255
+          ]
+        ]
+      ],
+      "color_bgr": [
+        35,
+        195,
+        235
+      ],
+      "min_area_px": 500,
+      "base_diameter_m": null,
+      "initial_sim_xyz_m": [
+        0.6171231269836426,
+        -0.08910002559423447,
+        1.0925
+      ],
+      "initial_desk_xyz_m": [
+        0.35090070106564825,
+        -0.0362074130165181,
+        0.0425
+      ],
+      "initial_pixel_xy": [
+        680.3077738351114,
+        501.4831674132023
+      ],
+      "position_source": "boundary_hsv_aligned_depth_visual_reference",
+      "collision_enabled": false,
+      "training_ready": false,
+      "orientation_assumption": "upright; measured shape-axis yaw modulo 180 degrees",
+      "yaw_source": "boundary_depth_upper_face_shape_axis",
+      "initial_desk_yaw_rad": -0.3051738545125999,
+      "initial_sim_yaw_rad": 1.2656224722822964,
+      "initial_quat_wxyz": [
+        0.8063680925195456,
+        0.0,
+        0.0,
+        0.5914139830663371
+      ],
+      "yaw_source_frame_indices": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        11
+      ]
+    }
+  ],
+  "background_diagnostics": [
+    {
+      "name": "blue_sphere",
+      "initial_observations": 6,
+      "final_observations": 6,
+      "initial_consensus_observations": 6,
+      "final_consensus_observations": 6,
+      "rejected_boundary_frames": [],
+      "boundary_shift_m": 3.282932985435768e-05,
+      "boundary_jitter_p95_m": 0.0005316308639064437,
+      "resting_height_error_p95_m": 0.0,
+      "status": "visual_reference"
+    },
+    {
+      "name": "yellow_mustard_tin",
+      "initial_observations": 6,
+      "final_observations": 6,
+      "initial_consensus_observations": 6,
+      "final_consensus_observations": 6,
+      "rejected_boundary_frames": [],
+      "boundary_shift_m": 0.0005700385313836157,
+      "boundary_jitter_p95_m": 0.000403389156767878,
+      "resting_height_error_p95_m": 0.0005624515702776153,
+      "status": "visual_reference"
+    }
+  ],
+  "source_file_sha256": {
+    "trajectory.json": "1e48de39280c70c3b4f15f1b72de9a44e16161e2ad9ff7bebadfd73fccd89202"
+  },
+  "collision_enabled": false,
+  "training_ready": false,
+  "boundary_mask_method": "HSV proposals expanded 8 px; calibrated depth foreground and known-size checks",
+  "notes": "Static visual references only. Boundary colour/depth estimates are not approved labels or obstacle poses; objects are not tracked through the carry. Marker centres/orientations use the task calibration; white margin is illustrative. Cuboid yaw is applied only with consistent boundary geometry; other orientations remain unmeasured.",
+  "source_files_relative_to": "context",
+  "packaging": {
+    "original_context_sha256": "f51093feadf880ca8d1bc2851c8d42be343a1005d5eba8fa235d303ff33fcb11",
+    "snapshot_only": true,
+    "note": "Numeric marker/background geometry unchanged; fingerprints bind this portable task, not absent raw captures."
+  }
+}

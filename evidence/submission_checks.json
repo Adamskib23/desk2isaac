@@ -1,0 +1,105 @@
+{
+  "schema_version": "hmnd_submission_verification_v1",
+  "checked_at_utc": "2026-10-07T16:58:00.358453+00:00",
+  "tests": {
+    "full_suite_passed": 319,
+    "full_suite_skipped": 0,
+    "relocated_base_suite_passed": 309,
+    "relocated_base_torch_module_skipped": 1
+  },
+  "compact_model_audit": {
+    "schema_version": "hmnd_compact_model_audit_v1",
+    "encoder_and_head_tensors_match_both_original_checkpoints": true,
+    "validation_predictions": 805,
+    "depth_and_teacher_open_calls_blocked": true
+  },
+  "relocated_short_model_validation_predictions": 805,
+  "editable_install_checked_with_existing_dependencies": true,
+  "fresh_simulator_install_tested": false,
+  "physics_demo_reproduction": [
+    {
+      "index": 23,
+      "object_name": "black_box",
+      "completed": true,
+      "pick_place_passed": true,
+      "pick_place_with_yaw_passed": true,
+      "object_pose_commands_during_run": 0,
+      "placement_xy_error_mm": 1.125099862532757,
+      "max_bottom_clearance_mm": 61.21480464935303,
+      "scene_markers": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "scene_background_objects": [
+        "blue_sphere",
+        "yellow_mustard_tin"
+      ],
+      "render_frames": 487,
+      "render_nonblank_and_moving": true,
+      "sampled_frame_mean_absolute_difference": 6.902037037037037,
+      "local_report_sha256": "db9b33c01a605e6a0b376823076eafbc7d70e9e1532e246493a85f885ba66f60"
+    },
+    {
+      "index": 28,
+      "object_name": "blue_sphere",
+      "completed": true,
+      "pick_place_passed": true,
+      "pick_place_with_yaw_passed": null,
+      "object_pose_commands_during_run": 0,
+      "placement_xy_error_mm": 21.7716019533018,
+      "max_bottom_clearance_mm": 57.94632434844971,
+      "scene_markers": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "scene_background_objects": [
+        "black_box",
+        "yellow_mustard_tin"
+      ],
+      "render_frames": 478,
+      "render_nonblank_and_moving": true,
+      "sampled_frame_mean_absolute_difference": 5.789537037037037,
+      "local_report_sha256": "c1a1cf22fc7a286f616a00b99486e1757a7e2ae2860b76008315b828c870162f"
+    },
+    {
+      "index": 30,
+      "object_name": "yellow_mustard_tin",
+      "completed": true,
+      "pick_place_passed": true,
+      "pick_place_with_yaw_passed": true,
+      "object_pose_commands_during_run": 0,
+      "placement_xy_error_mm": 1.3855366521323396,
+      "max_bottom_clearance_mm": 56.584715843200684,
+      "scene_markers": [
+        0,
+        3,
+        2,
+        1
+      ],
+      "scene_background_objects": [
+        "blue_sphere",
+        "black_box"
+      ],
+      "render_frames": 510,
+      "render_nonblank_and_moving": true,
+      "sampled_frame_mean_absolute_difference": 7.3051157407407405,
+      "local_report_sha256": "6d678c46a9f3d13ccdcfb5672401388f57d4cfd4964b4f77b3ef771692727d22"
+    }
+  ],
+  "current_file_sha256": {
+    "src/humanoid_retarget/physical.py": "731f427ce81ed24d98e8b5d9c3bb580e574bfa578a4e74f2df50934aa1219b5f",
+    "scripts/replay_in_isaac_lab.py": "ab9f85fda6fde65c965f81f87afd803841394195cbd91a939ad4c9e62229b586",
+    "src/humanoid_retarget/scene_context.py": "0a3fecc0d3986dbfec64eba4543e55a1fb6c4415ffe24e09fed47188a7b5526c",
+    "src/humanoid_retarget/rgb_student.py": "1211e6a29958fa9840735bd959d77f7a2c5150d341acc450edc4e32a42119c0f",
+    "scripts/replay_demo.py": "0ec8d07b10a593db0e915a01909d065744c9a53d408cdbd0339b42db84d89c41",
+    "examples/retargeting/manifest.json": "5585a4a3e5247d644d897dd1e8d18d8ed1047d9a59acd6e6e57af063ccf05f1e",
+    "examples/rgb_supervision/training_manifest.json": "0d8f20c1fc48b5d273f888026dc000cb3b0c51cf3e174dbaa0d98d596c0403c0",
+    "examples/models/rgb_short_head.pt": "b47be8cc9e16a623a14e1a4ac5b1dcc04cc744923d4cd7152855908441ed5833",
+    "examples/models/rgb_long_head.pt": "c98bf418816f76328ffb6cd4ecaf49365d991512566953e5b0874079f802d8f5"
+  },
+  "notes": "Submission portability checks, not a new 30-task benchmark. Rendering/physics used the existing Isaac environment. No further model fitting or camera recording was performed."
+}

@@ -1,0 +1,28 @@
+objects:
+  - name: blue_sphere
+    shape: sphere
+    size_m: [0.0365, 0.0365, 0.0365]
+    color_rgb: [50, 180, 230]
+    min_area_px: 300
+    hsv_ranges:
+      - lower: [80, 65, 95]
+        upper: [115, 255, 255]
+
+  - name: black_box
+    shape: cuboid
+    size_m: [0.05555, 0.045, 0.031]
+    color_rgb: [45, 45, 50]
+    min_area_px: 500
+    hsv_ranges:
+      - lower: [0, 0, 15]
+        upper: [179, 45, 115]
+
+  - name: green_shot_glass
+    shape: cylinder
+    size_m: [0.043, 0.043, 0.068]
+    base_diameter_m: 0.039
+    color_rgb: [40, 110, 45]
+    min_area_px: 300
+    hsv_ranges:
+      - lower: [35, 30, 25]
+        upper: [90, 255, 180]

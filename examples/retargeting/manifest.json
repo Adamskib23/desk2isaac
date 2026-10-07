@@ -1,0 +1,40 @@
+{
+  "schema_version": "hmnd_portable_demo_v1",
+  "clips": [
+    {
+      "index": 23,
+      "object_name": "black_box",
+      "source_episode": "data/real/rl_pilot/batch_003/clip_001_black_box",
+      "trajectory": "023_black_box/trajectory.json",
+      "scene_context": "023_black_box/scene_context.json",
+      "trajectory_sha256": "1e48de39280c70c3b4f15f1b72de9a44e16161e2ad9ff7bebadfd73fccd89202",
+      "scene_context_sha256": "491046d0332b9b493f2dcf9ca490d62bbdfb11e8d41453299518b2dcc754f1db",
+      "original_trajectory_sha256": "fa47c23b7ccae77ad25ce7966285b918ddd1cd123a049238eec7463cd92d2fdb",
+      "original_scene_context_sha256": "f51093feadf880ca8d1bc2851c8d42be343a1005d5eba8fa235d303ff33fcb11"
+    },
+    {
+      "index": 28,
+      "object_name": "blue_sphere",
+      "source_episode": "data/real/rl_pilot/batch_003/clip_006_blue_sphere",
+      "trajectory": "028_blue_sphere/trajectory.json",
+      "scene_context": "028_blue_sphere/scene_context.json",
+      "trajectory_sha256": "bd782360df6fb9642000a7a7ae8e69723bb143274f5bd8c3d647706c02021671",
+      "scene_context_sha256": "1eea4d45370cd0e45a3eb582cc5b305d20fdb5bfad015da936c315eb2d5ae27e",
+      "original_trajectory_sha256": "bfddfc11aa20c14545239cee76b23c0c7be2e23abd842d7ef32242b6e0859c5e",
+      "original_scene_context_sha256": "d5b83382113e2224c656d0ef327634a35269bca1001f143c00566cb16f2988d4"
+    },
+    {
+      "index": 30,
+      "object_name": "yellow_mustard_tin",
+      "source_episode": "data/real/rl_pilot/batch_003/clip_008_yellow_mustard_tin",
+      "trajectory": "030_yellow_mustard_tin/trajectory.json",
+      "scene_context": "030_yellow_mustard_tin/scene_context.json",
+      "trajectory_sha256": "49e258aae0a2c69a86d4afc95ad304578f05020d617792b6eb7efb3eba5b9c22",
+      "scene_context_sha256": "80808844561fbbe3b425a6cb1048152022140e9aeeb892452e5767a5c0dcb305",
+      "original_trajectory_sha256": "dd6c32c71bd1a613ad48fa8f3b96a88c2802569910c48b70fd93f71b7a6b7195",
+      "original_scene_context_sha256": "c37e63eac1c051451cb8a9859008eea793e690b42bc5f5436704fa7235054919"
+    }
+  ],
+  "source_review_manifest_sha256": "f0d489554fd77e11227cc547a44e121826a50a630ba627ceb46b3fc39465a7c4",
+  "notes": "Prepared tasks with frozen visual scene snapshots; original RGB-D sources are not bundled."
+}

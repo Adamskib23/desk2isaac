@@ -1,0 +1,19 @@
+{
+  "training_manifest_sha256": "67eaea4c6d97f4aeac998171306421d6b1d329ebd180c548de49f0d7b604c5d8",
+  "source_code_sha256": {
+    "scripts/train_rgb_student.py": "5bc3ee49fbfbf9a28208fd8b650534823e91a249cec11df392901dede0c74d1d",
+    "src/humanoid_retarget/rgb_student.py": "2583583827c5f507012fddbe9c28d12ba8f0b966015bf5539d856e60fb2f52ac",
+    "src/humanoid_retarget/rgb_data.py": "11f1ee12eac9b4cde38f321a56a763f7d3decbb6b5e6f486430a96a19119fbd0",
+    "src/humanoid_retarget/training_control.py": "f9c937583b33d2dd0873d370b76977af72a1ceaa7f7ef62276569c436ddd3f5d"
+  },
+  "seed": 42,
+  "epoch_limit": null,
+  "time_budget_minutes": 120.0,
+  "learning_rate": 0.0003,
+  "batch_size": 64,
+  "augment_views": 2,
+  "refresh_augment_every_epochs": 20,
+  "encoder_frozen": true,
+  "device": "cuda",
+  "supervision": "approximate_depth_teacher_pseudo_labels"
+}

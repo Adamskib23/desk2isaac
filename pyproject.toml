@@ -1,0 +1,31 @@
+[project]
+name = "humanoid-rgbd-retarget"
+version = "0.1.0"
+description = "Retarget personally collected RGB-D manipulation data into an Isaac Lab manipulator replay."
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "opencv-contrib-python",
+    "PyYAML",
+]
+
+[project.optional-dependencies]
+isaac = []
+orbbec = ["pyorbbecsdk2"]
+dev = ["pytest"]
+ml = ["torch==2.7.0", "torchvision==0.22.0", "matplotlib==3.10.3"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100

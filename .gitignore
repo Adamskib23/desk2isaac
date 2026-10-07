@@ -1,0 +1,36 @@
+# Local environments and Python build products.
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Raw captures, intermediate results and downloaded dependencies.
+/data/
+/outputs/
+/models/
+/third_party/
+/Log/
+/logs/
+*.log
+configs/*.png
+/Screenshot*.png
+
+# Local history and generated clean exports, not part of the submission.
+/development/
+/submission/
+.agents/
+.codex/
+.aws/
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+
+# The curated examples/, evidence/ and docs/assets/ are intentionally included.

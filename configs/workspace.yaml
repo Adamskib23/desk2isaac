@@ -1,0 +1,32 @@
+workspace:
+  image_size_px: [1280, 720]
+  # Clockwise corners of the rectangular desk workspace in the RGB image.
+  # Recalibrate these for your real overhead Gemini 2 setup.
+  image_points_px:
+    - [220, 140]
+    - [1060, 140]
+    - [1060, 620]
+    - [220, 620]
+  # Metric coordinates on the desk plane, in the same corner order.
+  # x points camera-right, y points away from you on the desk.
+  desk_points_m:
+    - [-0.30, 0.20]
+    - [0.30, 0.20]
+    - [0.30, -0.20]
+    - [-0.30, -0.20]
+  table_z_m: 0.0
+  # Approximate depth reading for the bare desk under a top-down camera.
+  # Used only when depth frames are present.
+  table_depth_m: 1.20
+
+retarget:
+  # Map desk coordinates into a Franka-friendly Isaac Lab table frame.
+  sim_origin_m: [0.55, 0.0, 1.05]
+  sim_table_z_m: 1.05
+  scale_xy: 1.0
+  mapping: desk_y_forward_desk_x_left
+  hover_height_m: 0.26
+  hand_to_grasp_offset_m: 0.1034
+  movement_threshold_m: 0.025
+  min_displacement_m: 0.035
+  max_carry_waypoints: 80

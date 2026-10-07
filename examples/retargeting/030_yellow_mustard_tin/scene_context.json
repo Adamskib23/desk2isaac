@@ -1,0 +1,487 @@
+{
+  "schema_version": "hmnd_scene_context_v1",
+  "source_episode": "data/real/rl_pilot/batch_003/clip_008_yellow_mustard_tin",
+  "source_task_sha256": "49e258aae0a2c69a86d4afc95ad304578f05020d617792b6eb7efb3eba5b9c22",
+  "selected_object": "yellow_mustard_tin",
+  "markers": [
+    {
+      "id": 0,
+      "dictionary": "DICT_4X4_1000",
+      "black_square_size_m": 0.10640000000000001,
+      "initial_sim_xyz_m": [
+        0.653330534696579,
+        0.26180068403482437,
+        1.05
+      ],
+      "quat_wxyz": [
+        0.7056480004266736,
+        0.0,
+        0.0,
+        -0.7085625586310903
+      ],
+      "sim_corners_m": [
+        [
+          0.7067493624873684,
+          0.31478095241332527
+        ],
+        [
+          0.7063108030750799,
+          0.2083818562440349
+        ],
+        [
+          0.5999117069057895,
+          0.20882041565632348
+        ],
+        [
+          0.6003502663180781,
+          0.3152195118256138
+        ]
+      ],
+      "cells": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "collision_enabled": false
+    },
+    {
+      "id": 3,
+      "dictionary": "DICT_4X4_1000",
+      "black_square_size_m": 0.10640000000000001,
+      "initial_sim_xyz_m": [
+        0.6794710010290146,
+        -0.25347625464200974,
+        1.05
+      ],
+      "quat_wxyz": [
+        0.9997489982921912,
+        0.0,
+        0.0,
+        0.022404026730929887
+      ],
+      "sim_corners_m": [
+        [
+          0.6239412173798382,
+          -0.20271285121123422
+        ],
+        [
+          0.7302344044597902,
+          -0.1979464709928334
+        ],
+        [
+          0.735000784678191,
+          -0.30423965807278525
+        ],
+        [
+          0.628707597598239,
+          -0.30900603829118606
+        ]
+      ],
+      "cells": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "collision_enabled": false
+    },
+    {
+      "id": 2,
+      "dictionary": "DICT_4X4_1000",
+      "black_square_size_m": 0.10640000000000001,
+      "initial_sim_xyz_m": [
+        0.42554835230112076,
+        0.25295959040522575,
+        1.05
+      ],
+      "quat_wxyz": [
+        0.7177076174417911,
+        0.0,
+        0.0,
+        -0.6963445812713901
+      ],
+      "sim_corners_m": [
+        [
+          0.4771169834737391,
+          0.3077424004735534
+        ],
+        [
+          0.4803311623694484,
+          0.20139095923260744
+        ],
+        [
+          0.3739797211285024,
+          0.19817678033689812
+        ],
+        [
+          0.3707655422327931,
+          0.3045282215778441
+        ]
+      ],
+      "cells": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "collision_enabled": false
+    },
+    {
+      "id": 1,
+      "dictionary": "DICT_4X4_1000",
+      "black_square_size_m": 0.10640000000000001,
+      "initial_sim_xyz_m": [
+        0.4384531229734421,
+        -0.26212654635310173,
+        1.05
+      ],
+      "quat_wxyz": [
+        0.6918374793093119,
+        0.0,
+        0.0,
+        0.7220532544230636
+      ],
+      "sim_corners_m": [
+        [
+          0.38757449420105916,
+          -0.3175507751185257
+        ],
+        [
+          0.3830288942080181,
+          -0.2112479175807188
+        ],
+        [
+          0.489331751745825,
+          -0.20670231758767774
+        ],
+        [
+          0.49387735173886604,
+          -0.31300517512548465
+        ]
+      ],
+      "cells": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        [
+          1,
+          0,
+          1,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ],
+      "collision_enabled": false
+    }
+  ],
+  "background_objects": [
+    {
+      "name": "blue_sphere",
+      "shape": "sphere",
+      "size_m": [
+        0.0365,
+        0.0365,
+        0.0365
+      ],
+      "hsv_ranges": [
+        [
+          [
+            80,
+            65,
+            95
+          ],
+          [
+            115,
+            255,
+            255
+          ]
+        ]
+      ],
+      "color_bgr": [
+        230,
+        180,
+        50
+      ],
+      "min_area_px": 300,
+      "base_diameter_m": null,
+      "initial_sim_xyz_m": [
+        0.4416223466396332,
+        0.14551134407520294,
+        1.0682500000000001
+      ],
+      "initial_desk_xyz_m": [
+        0.1162893348723274,
+        -0.2117081926858674,
+        0.01825
+      ],
+      "initial_pixel_xy": [
+        1226.615259626121,
+        362.75991902465694
+      ],
+      "position_source": "boundary_hsv_aligned_depth_visual_reference",
+      "collision_enabled": false,
+      "training_ready": false,
+      "orientation_assumption": "upright; yaw unmeasured",
+      "yaw_source": "unmeasured_position_only"
+    },
+    {
+      "name": "black_box",
+      "shape": "cuboid",
+      "size_m": [
+        0.05555,
+        0.045,
+        0.031
+      ],
+      "hsv_ranges": [
+        [
+          [
+            0,
+            0,
+            15
+          ],
+          [
+            179,
+            45,
+            115
+          ]
+        ]
+      ],
+      "color_bgr": [
+        50,
+        45,
+        45
+      ],
+      "min_area_px": 500,
+      "base_diameter_m": null,
+      "initial_sim_xyz_m": [
+        0.5468709468841553,
+        -0.13874779641628265,
+        1.0655000000000001
+      ],
+      "initial_desk_xyz_m": [
+        0.4005484746317203,
+        -0.10645956911941958,
+        0.0155
+      ],
+      "initial_pixel_xy": [
+        655.3192558499443,
+        376.3257022733038
+      ],
+      "position_source": "boundary_hsv_aligned_depth_visual_reference",
+      "collision_enabled": false,
+      "training_ready": false,
+      "orientation_assumption": "upright; yaw unmeasured",
+      "yaw_source": "unmeasured_position_only"
+    }
+  ],
+  "background_diagnostics": [
+    {
+      "name": "blue_sphere",
+      "initial_observations": 6,
+      "final_observations": 6,
+      "initial_consensus_observations": 6,
+      "final_consensus_observations": 6,
+      "rejected_boundary_frames": [],
+      "boundary_shift_m": 0.00036141270672207195,
+      "boundary_jitter_p95_m": 0.00044618676671261516,
+      "resting_height_error_p95_m": 0.0,
+      "status": "visual_reference"
+    },
+    {
+      "name": "black_box",
+      "initial_observations": 6,
+      "final_observations": 6,
+      "initial_consensus_observations": 6,
+      "final_consensus_observations": 6,
+      "rejected_boundary_frames": [],
+      "boundary_shift_m": 0.00042570520449516556,
+      "boundary_jitter_p95_m": 0.0035183115896012043,
+      "resting_height_error_p95_m": 0.0006408820599767967,
+      "status": "visual_reference"
+    }
+  ],
+  "source_file_sha256": {
+    "trajectory.json": "49e258aae0a2c69a86d4afc95ad304578f05020d617792b6eb7efb3eba5b9c22"
+  },
+  "collision_enabled": false,
+  "training_ready": false,
+  "boundary_mask_method": "HSV proposals expanded 8 px; calibrated depth foreground and known-size checks",
+  "notes": "Static visual references only. Boundary colour/depth estimates are not approved labels or obstacle poses; objects are not tracked through the carry. Marker centres/orientations use the task calibration; white margin is illustrative. Cuboid yaw is applied only with consistent boundary geometry; other orientations remain unmeasured.",
+  "source_files_relative_to": "context",
+  "packaging": {
+    "original_context_sha256": "c37e63eac1c051451cb8a9859008eea793e690b42bc5f5436704fa7235054919",
+    "snapshot_only": true,
+    "note": "Numeric marker/background geometry unchanged; fingerprints bind this portable task, not absent raw captures."
+  }
+}

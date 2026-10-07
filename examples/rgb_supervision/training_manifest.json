@@ -1,0 +1,31 @@
+{
+  "schema_version": "hmnd_rgb_student_training_v1",
+  "inputs": "inputs.json",
+  "teacher_labels": "teacher_labels.json",
+  "inputs_sha256": "594338bdc2c4cdbf08642a4fe4acfd3e754a1f36f60ba7320e2021352ef9e2e1",
+  "teacher_labels_sha256": "1b188bfc6afa9f9932c1489889d2e001965cb079a6cae5d39b98aed29c20223b",
+  "source_review_manifest": "outputs/datasets/pilot_030_yaw/manifest.json",
+  "source_review_manifest_sha256": "f0d489554fd77e11227cc547a44e121826a50a630ba627ceb46b3fc39465a7c4",
+  "source_code_sha256": {
+    "scripts/prepare_rgb_training.py": "63ec22d071519c53a29b2b27f5ccbb6fd80bc9bdac8104903132baf1e3be5cfa",
+    "src/humanoid_retarget/rgb_data.py": "11f1ee12eac9b4cde38f321a56a763f7d3decbb6b5e6f486430a96a19119fbd0"
+  },
+  "sample_counts": {
+    "train": 2202,
+    "val": 805
+  },
+  "clip_counts": {
+    "train": 22,
+    "val": 8
+  },
+  "stride": 3,
+  "test_status": "No independent test. Batch 003 is validation for checkpoint selection; no further recordings planned.",
+  "augmentation_policy": "Train-only photometric variants. No geometric flips/rotations. Reversing per-frame videos adds no new examples; derivatives cannot cross splits.",
+  "training_supervision": "approximate_depth_teacher_pseudo_labels",
+  "training_ready": false,
+  "packaging": {
+    "original_inputs_sha256": "8ce217e0f3abbc3662619be7a465c14c5b60f6870e48bc7e099b9618ea786d40",
+    "original_manifest_sha256": "67eaea4c6d97f4aeac998171306421d6b1d329ebd180c548de49f0d7b604c5d8",
+    "changes": "Only absolute path metadata normalised; crops, geometry, calibrations, labels and splits unchanged."
+  }
+}

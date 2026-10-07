@@ -1,0 +1,30 @@
+objects:
+  - name: red_cube
+    shape: cuboid
+    size_m: [0.055, 0.055, 0.055]
+    color_rgb: [220, 45, 45]
+    min_area_px: 220
+    hsv_ranges:
+      - lower: [0, 90, 70]
+        upper: [10, 255, 255]
+      - lower: [170, 90, 70]
+        upper: [179, 255, 255]
+
+  - name: blue_block
+    shape: cuboid
+    size_m: [0.07, 0.045, 0.045]
+    color_rgb: [40, 90, 230]
+    min_area_px: 220
+    hsv_ranges:
+      - lower: [95, 70, 55]
+        upper: [130, 255, 255]
+
+  - name: green_cylinder
+    shape: cylinder
+    size_m: [0.045, 0.045, 0.07]
+    color_rgb: [50, 170, 80]
+    min_area_px: 180
+    hsv_ranges:
+      - lower: [45, 55, 45]
+        upper: [85, 255, 255]
+

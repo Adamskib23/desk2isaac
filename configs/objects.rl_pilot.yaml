@@ -1,0 +1,30 @@
+# New pilot recordings replace the glass; objects.real.yaml remains historical.
+objects:
+  - name: blue_sphere
+    shape: sphere
+    size_m: [0.0365, 0.0365, 0.0365]
+    color_rgb: [50, 180, 230]
+    min_area_px: 300
+    hsv_ranges:
+      - lower: [80, 65, 95]
+        upper: [115, 255, 255]
+
+  - name: black_box
+    shape: cuboid
+    size_m: [0.05555, 0.045, 0.031]
+    color_rgb: [45, 45, 50]
+    min_area_px: 500
+    hsv_ranges:
+      - lower: [0, 0, 15]
+        upper: [179, 45, 115]
+
+  - name: yellow_mustard_tin
+    # Bounding envelope: width, depth, height. Rounded edges/lid are not modelled.
+    shape: cuboid
+    size_m: [0.051, 0.035, 0.085]
+    color_rgb: [235, 195, 35]
+    min_area_px: 500
+    # Provisional yellow range; inspect a real frame before collecting the batch.
+    hsv_ranges:
+      - lower: [18, 100, 70]
+        upper: [38, 255, 255]
